@@ -12,15 +12,21 @@
 		A64BC0091B107E120030EDCD /* dog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A64BC0061B107E120030EDCD /* dog1.jpg */; };
 		A64BC00A1B107E120030EDCD /* dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A64BC0071B107E120030EDCD /* dog2.jpg */; };
 		A64BC00B1B107E120030EDCD /* dog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A64BC0081B107E120030EDCD /* dog3.jpg */; };
-		A6E4916E1B0F4DB400F36516 /* CacheTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4916D1B0F4DB400F36516 /* CacheTableVC.m */; };
-		A6E491781B0F55BF00F36516 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E491771B0F55BF00F36516 /* NetworkManager.m */; };
+		A6C4B5711B27A4EE00F8BD99 /* CacheTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B56C1B27A4EE00F8BD99 /* CacheTableVC.m */; };
+		A6C4B5721B27A4EE00F8BD99 /* CacheTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B56C1B27A4EE00F8BD99 /* CacheTableVC.m */; };
+		A6C4B5731B27A4EE00F8BD99 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B56E1B27A4EE00F8BD99 /* HomeVC.m */; };
+		A6C4B5741B27A4EE00F8BD99 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B56E1B27A4EE00F8BD99 /* HomeVC.m */; };
+		A6C4B5751B27A4EE00F8BD99 /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B5701B27A4EE00F8BD99 /* LeftMenuVC.m */; };
+		A6C4B5761B27A4EE00F8BD99 /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B5701B27A4EE00F8BD99 /* LeftMenuVC.m */; };
+		A6C4B5771B27A4F500F8BD99 /* CatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4917E1B0F63C800F36516 /* CatModel.m */; };
+		A6C4B57B1B27A50900F8BD99 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B57A1B27A50900F8BD99 /* NetworkManager.m */; };
+		A6C4B57C1B27A50900F8BD99 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B57A1B27A50900F8BD99 /* NetworkManager.m */; };
 		A6E4917F1B0F63C800F36516 /* CatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4917E1B0F63C800F36516 /* CatModel.m */; };
 		A6FC19441B0F389B0034C2C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19431B0F389B0034C2C1 /* main.m */; };
 		A6FC19471B0F389B0034C2C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19461B0F389B0034C2C1 /* AppDelegate.m */; };
 		A6FC194D1B0F389B0034C2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC194B1B0F389B0034C2C1 /* Main.storyboard */; };
 		A6FC194F1B0F389B0034C2C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FC194E1B0F389B0034C2C1 /* Images.xcassets */; };
 		A6FC19521B0F389B0034C2C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC19501B0F389B0034C2C1 /* LaunchScreen.xib */; };
-		A6FC196C1B0F3C970034C2C1 /* LeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC196B1B0F3C970034C2C1 /* LeftMenuVC.m */; };
 		A6FC19801B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19721B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorFade.m */; };
 		A6FC19811B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19741B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorScale.m */; };
 		A6FC19821B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19761B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
@@ -29,7 +35,6 @@
 		A6FC19851B0F3D830034C2C1 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A6FC197C1B0F3D830034C2C1 /* menu-button.png */; };
 		A6FC19861B0F3D830034C2C1 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6FC197D1B0F3D830034C2C1 /* menu-button@2x.png */; };
 		A6FC19871B0F3D830034C2C1 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC197F1B0F3D830034C2C1 /* SlideNavigationController.m */; };
-		A6FC198A1B0F42450034C2C1 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19891B0F42450034C2C1 /* HomeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +54,14 @@
 		A64BC0061B107E120030EDCD /* dog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog1.jpg; sourceTree = "<group>"; };
 		A64BC0071B107E120030EDCD /* dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog2.jpg; sourceTree = "<group>"; };
 		A64BC0081B107E120030EDCD /* dog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog3.jpg; sourceTree = "<group>"; };
-		A6E4916C1B0F4DB400F36516 /* CacheTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CacheTableVC.h; path = View/CacheTableVC.h; sourceTree = "<group>"; };
-		A6E4916D1B0F4DB400F36516 /* CacheTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CacheTableVC.m; path = View/CacheTableVC.m; sourceTree = "<group>"; };
-		A6E491761B0F55BF00F36516 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = Controller/NetworkManager.h; sourceTree = "<group>"; };
-		A6E491771B0F55BF00F36516 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = Controller/NetworkManager.m; sourceTree = "<group>"; };
+		A6C4B56B1B27A4EE00F8BD99 /* CacheTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheTableVC.h; sourceTree = "<group>"; };
+		A6C4B56C1B27A4EE00F8BD99 /* CacheTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheTableVC.m; sourceTree = "<group>"; };
+		A6C4B56D1B27A4EE00F8BD99 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		A6C4B56E1B27A4EE00F8BD99 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		A6C4B56F1B27A4EE00F8BD99 /* LeftMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuVC.h; sourceTree = "<group>"; };
+		A6C4B5701B27A4EE00F8BD99 /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuVC.m; sourceTree = "<group>"; };
+		A6C4B5791B27A50900F8BD99 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		A6C4B57A1B27A50900F8BD99 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		A6E4917D1B0F63C800F36516 /* CatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatModel.h; path = Model/CatModel.h; sourceTree = "<group>"; };
 		A6E4917E1B0F63C800F36516 /* CatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatModel.m; path = Model/CatModel.m; sourceTree = "<group>"; };
 		A6FC193E1B0F389B0034C2C1 /* BlackSwam-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlackSwam-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +74,6 @@
 		A6FC19511B0F389B0034C2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A6FC19571B0F389B0034C2C1 /* BlackSwam-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlackSwam-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FC195C1B0F389B0034C2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6FC196A1B0F3C970034C2C1 /* LeftMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftMenuVC.h; path = View/LeftMenuVC.h; sourceTree = "<group>"; };
-		A6FC196B1B0F3C970034C2C1 /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftMenuVC.m; path = View/LeftMenuVC.m; sourceTree = "<group>"; };
 		A6FC19701B0F3D830034C2C1 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
 		A6FC19711B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
 		A6FC19721B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
@@ -82,8 +89,6 @@
 		A6FC197D1B0F3D830034C2C1 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
 		A6FC197E1B0F3D830034C2C1 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
 		A6FC197F1B0F3D830034C2C1 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
-		A6FC19881B0F42450034C2C1 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = View/HomeVC.h; sourceTree = "<group>"; };
-		A6FC19891B0F42450034C2C1 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = View/HomeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,29 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		A6C4B56A1B27A4EE00F8BD99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4B56B1B27A4EE00F8BD99 /* CacheTableVC.h */,
+				A6C4B56C1B27A4EE00F8BD99 /* CacheTableVC.m */,
+				A6C4B56D1B27A4EE00F8BD99 /* HomeVC.h */,
+				A6C4B56E1B27A4EE00F8BD99 /* HomeVC.m */,
+				A6C4B56F1B27A4EE00F8BD99 /* LeftMenuVC.h */,
+				A6C4B5701B27A4EE00F8BD99 /* LeftMenuVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6C4B5781B27A50900F8BD99 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4B5791B27A50900F8BD99 /* NetworkManager.h */,
+				A6C4B57A1B27A50900F8BD99 /* NetworkManager.m */,
+			);
+			name = Manager;
+			path = Model/Manager;
+			sourceTree = "<group>";
+		};
 		A6FC19351B0F389B0034C2C1 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +175,7 @@
 				A6FC194B1B0F389B0034C2C1 /* Main.storyboard */,
 				A6FC19451B0F389B0034C2C1 /* AppDelegate.h */,
 				A6FC19461B0F389B0034C2C1 /* AppDelegate.m */,
-				A6FC19671B0F394E0034C2C1 /* View */,
+				A6C4B56A1B27A4EE00F8BD99 /* Controller */,
 				A6FC19681B0F3B640034C2C1 /* Model */,
 				A6FC194E1B0F389B0034C2C1 /* Images.xcassets */,
 				A6FC19501B0F389B0034C2C1 /* LaunchScreen.xib */,
@@ -184,36 +212,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A6FC19671B0F394E0034C2C1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A6FC196A1B0F3C970034C2C1 /* LeftMenuVC.h */,
-				A6FC196B1B0F3C970034C2C1 /* LeftMenuVC.m */,
-				A6FC19881B0F42450034C2C1 /* HomeVC.h */,
-				A6FC19891B0F42450034C2C1 /* HomeVC.m */,
-				A6E4916C1B0F4DB400F36516 /* CacheTableVC.h */,
-				A6E4916D1B0F4DB400F36516 /* CacheTableVC.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		A6FC19681B0F3B640034C2C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A6FC19691B0F3B7A0034C2C1 /* Manager */,
+				A6C4B5781B27A50900F8BD99 /* Manager */,
 				A6E4917D1B0F63C800F36516 /* CatModel.h */,
 				A6E4917E1B0F63C800F36516 /* CatModel.m */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		A6FC19691B0F3B7A0034C2C1 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				A6E491761B0F55BF00F36516 /* NetworkManager.h */,
-				A6E491771B0F55BF00F36516 /* NetworkManager.m */,
-			);
-			name = Manager;
 			sourceTree = "<group>";
 		};
 		A6FC196D1B0F3D830034C2C1 /* frameworks */ = {
@@ -370,16 +376,16 @@
 			files = (
 				A6FC19871B0F3D830034C2C1 /* SlideNavigationController.m in Sources */,
 				A6FC19811B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				A6C4B5751B27A4EE00F8BD99 /* LeftMenuVC.m in Sources */,
 				A6FC19821B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
-				A6E4916E1B0F4DB400F36516 /* CacheTableVC.m in Sources */,
-				A6E491781B0F55BF00F36516 /* NetworkManager.m in Sources */,
+				A6C4B5711B27A4EE00F8BD99 /* CacheTableVC.m in Sources */,
 				A6E4917F1B0F63C800F36516 /* CatModel.m in Sources */,
-				A6FC198A1B0F42450034C2C1 /* HomeVC.m in Sources */,
-				A6FC196C1B0F3C970034C2C1 /* LeftMenuVC.m in Sources */,
 				A6FC19471B0F389B0034C2C1 /* AppDelegate.m in Sources */,
 				A6FC19801B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				A6C4B57B1B27A50900F8BD99 /* NetworkManager.m in Sources */,
 				A64BC0021B1078BF0030EDCD /* Reachability.m in Sources */,
 				A6FC19441B0F389B0034C2C1 /* main.m in Sources */,
+				A6C4B5731B27A4EE00F8BD99 /* HomeVC.m in Sources */,
 				A6FC19841B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				A6FC19831B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 			);
@@ -389,6 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C4B5761B27A4EE00F8BD99 /* LeftMenuVC.m in Sources */,
+				A6C4B5741B27A4EE00F8BD99 /* HomeVC.m in Sources */,
+				A6C4B5771B27A4F500F8BD99 /* CatModel.m in Sources */,
+				A6C4B5721B27A4EE00F8BD99 /* CacheTableVC.m in Sources */,
+				A6C4B57C1B27A50900F8BD99 /* NetworkManager.m in Sources */,
 				A64BC0041B107B360030EDCD /* CatModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

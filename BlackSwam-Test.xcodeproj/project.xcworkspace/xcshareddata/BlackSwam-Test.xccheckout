@@ -10,6 +10,8 @@
 	<string>BlackSwam-Test</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>2BEA7A587F5B6719D8EB91AEAC51CCE1879A0929</key>
+		<string>https://github.com/franruano/BlackSwam-Test.git</string>
 		<key>A1F32F4BDB168EDD46CF1118571068D0C30D9D99</key>
 		<string>https://bitbucket.org/fran_ruano/bjj-practico-basico-ios.git</string>
 		<key>B4F134B41EAB34CC8C16CA144E9F121010CCA853</key>
@@ -19,17 +21,19 @@
 	<string>BlackSwam-Test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>2BEA7A587F5B6719D8EB91AEAC51CCE1879A0929</key>
+		<string>../..</string>
 		<key>A1F32F4BDB168EDD46CF1118571068D0C30D9D99</key>
 		<string>../../..</string>
 		<key>B4F134B41EAB34CC8C16CA144E9F121010CCA853</key>
-		<string>../..</string>
+		<string>../../../blackswam_test</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/fran_ruano/blackswam_test.git</string>
+	<string>https://github.com/franruano/BlackSwam-Test.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B4F134B41EAB34CC8C16CA144E9F121010CCA853</string>
+	<string>2BEA7A587F5B6719D8EB91AEAC51CCE1879A0929</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -47,6 +51,14 @@
 			<string>B4F134B41EAB34CC8C16CA144E9F121010CCA853</string>
 			<key>IDESourceControlWCCName</key>
 			<string>blackswam_test</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2BEA7A587F5B6719D8EB91AEAC51CCE1879A0929</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlackSwam-GitHub</string>
 		</dict>
 	</array>
 </dict>
