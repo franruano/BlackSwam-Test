@@ -1,6 +1,7 @@
 # BlackSwam-Test
 Test for a role in BlackSwam, London
 
+
 ## Description
 https://github.com/BlackSwanLtd/iOSFever
 Show us what you can do and how clean your code is! Write an app that uses public APIs to fetch data and display it in an organized way.
@@ -20,3 +21,12 @@ Standard best practises for Networking - Not reiventing the wheel
 Tests!
 In this test we don't care too much about the UI, what we care is how good the code is!
 
+
+## Library
+
+* Reachability
+* iOS-Slide-Menu https://github.com/aryaxt/iOS-Slide-Menu
+
+
+## To do
+Need to improve the Unit test
