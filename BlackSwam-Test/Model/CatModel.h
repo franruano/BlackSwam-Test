@@ -1,6 +1,8 @@
 
 
 #import <Foundation/Foundation.h>
+#import "Constants.h"
+
 
 @interface CatModel:NSObject
 

@@ -2,22 +2,21 @@
 
 #import "CatModel.h"
 
-#define kDate "date"
-#define kFile "fileName"
+
 
 
 @implementation CatModel
 
 
 - (void)encodeWithCoder:(NSCoder *)coder {
-    [coder encodeObject:self.date forKey:@kDate];
-    [coder encodeObject:self.fileName forKey:@kFile];
+    [coder encodeObject:self.date forKey:kDate];
+    [coder encodeObject:self.fileName forKey:kFileName];
 }
 
 - (id)initWithCoder:(NSCoder *)coder {
     self = [self init];
-    self.date = [coder decodeObjectForKey:@kDate];
-    self.fileName = [coder decodeObjectForKey:@kFile];
+    self.date = [coder decodeObjectForKey:kDate];
+    self.fileName = [coder decodeObjectForKey:kFileName];
     return self;
 }
 
@@ -47,7 +46,7 @@
 
 - (NSString *) convertNSDateToNSString {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd_HH-mm-ss"];
+    [formatter setDateFormat:kDateFileName];
     
     return  [formatter stringFromDate:self.date];
 }

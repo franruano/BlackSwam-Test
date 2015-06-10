@@ -1,8 +1,7 @@
 #import "HomeVC.h"
 #import "CatModel.h"
+#import "Constants.h"
 
-#define kStoreMemory "catStored"
-#define kApi "api/images/get"
 
 @interface HomeVC ()
 
@@ -89,7 +88,7 @@
     if (motion == UIEventSubtypeMotionShake)
     {
         [self showActivityIndicator];
-       [self.networkController createUrlRequest:@kApi];
+       [self.networkController createUrlRequest:kApi];
     }
 }
 #pragma marks - ActivityIndicator
@@ -106,12 +105,12 @@
 #pragma mark - Functions
 - (void) addCatToCache:(CatModel *)cat {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    NSMutableArray *arrayOfCats = [[NSKeyedUnarchiver unarchiveObjectWithData:[userDefaults objectForKey:@kStoreMemory]] mutableCopy];
+    NSMutableArray *arrayOfCats = [[NSKeyedUnarchiver unarchiveObjectWithData:[userDefaults objectForKey:kStoreMemory]] mutableCopy];
     if (!arrayOfCats){
         arrayOfCats = [[NSMutableArray alloc] init];
     }
     [arrayOfCats addObject:cat];
-    [userDefaults setObject:[NSKeyedArchiver archivedDataWithRootObject:arrayOfCats] forKey:@kStoreMemory];
+    [userDefaults setObject:[NSKeyedArchiver archivedDataWithRootObject:arrayOfCats] forKey:kStoreMemory];
     [userDefaults synchronize];
 }
 

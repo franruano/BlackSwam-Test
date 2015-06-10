@@ -21,6 +21,8 @@
 		A6C4B5771B27A4F500F8BD99 /* CatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4917E1B0F63C800F36516 /* CatModel.m */; };
 		A6C4B57B1B27A50900F8BD99 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B57A1B27A50900F8BD99 /* NetworkManager.m */; };
 		A6C4B57C1B27A50900F8BD99 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B57A1B27A50900F8BD99 /* NetworkManager.m */; };
+		A6C4B5881B28C40300F8BD99 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B5871B28C40300F8BD99 /* Constants.m */; };
+		A6C4B5891B28C40300F8BD99 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B5871B28C40300F8BD99 /* Constants.m */; };
 		A6E4917F1B0F63C800F36516 /* CatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4917E1B0F63C800F36516 /* CatModel.m */; };
 		A6FC19441B0F389B0034C2C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19431B0F389B0034C2C1 /* main.m */; };
 		A6FC19471B0F389B0034C2C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC19461B0F389B0034C2C1 /* AppDelegate.m */; };
@@ -62,6 +64,8 @@
 		A6C4B5701B27A4EE00F8BD99 /* LeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuVC.m; sourceTree = "<group>"; };
 		A6C4B5791B27A50900F8BD99 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		A6C4B57A1B27A50900F8BD99 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		A6C4B5861B28C40300F8BD99 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A6C4B5871B28C40300F8BD99 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		A6E4917D1B0F63C800F36516 /* CatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatModel.h; path = Model/CatModel.h; sourceTree = "<group>"; };
 		A6E4917E1B0F63C800F36516 /* CatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatModel.m; path = Model/CatModel.m; sourceTree = "<group>"; };
 		A6FC193E1B0F389B0034C2C1 /* BlackSwam-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlackSwam-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +155,15 @@
 			path = Model/Manager;
 			sourceTree = "<group>";
 		};
+		A6C4B5851B28C40300F8BD99 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4B5861B28C40300F8BD99 /* Constants.h */,
+				A6C4B5871B28C40300F8BD99 /* Constants.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		A6FC19351B0F389B0034C2C1 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +188,7 @@
 				A6FC194B1B0F389B0034C2C1 /* Main.storyboard */,
 				A6FC19451B0F389B0034C2C1 /* AppDelegate.h */,
 				A6FC19461B0F389B0034C2C1 /* AppDelegate.m */,
+				A6C4B5851B28C40300F8BD99 /* Helper */,
 				A6C4B56A1B27A4EE00F8BD99 /* Controller */,
 				A6FC19681B0F3B640034C2C1 /* Model */,
 				A6FC194E1B0F389B0034C2C1 /* Images.xcassets */,
@@ -379,6 +393,7 @@
 				A6C4B5751B27A4EE00F8BD99 /* LeftMenuVC.m in Sources */,
 				A6FC19821B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				A6C4B5711B27A4EE00F8BD99 /* CacheTableVC.m in Sources */,
+				A6C4B5881B28C40300F8BD99 /* Constants.m in Sources */,
 				A6E4917F1B0F63C800F36516 /* CatModel.m in Sources */,
 				A6FC19471B0F389B0034C2C1 /* AppDelegate.m in Sources */,
 				A6FC19801B0F3D830034C2C1 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
@@ -400,6 +415,7 @@
 				A6C4B5771B27A4F500F8BD99 /* CatModel.m in Sources */,
 				A6C4B5721B27A4EE00F8BD99 /* CacheTableVC.m in Sources */,
 				A6C4B57C1B27A50900F8BD99 /* NetworkManager.m in Sources */,
+				A6C4B5891B28C40300F8BD99 /* Constants.m in Sources */,
 				A64BC0041B107B360030EDCD /* CatModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,9 +534,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "BlackSwam-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -528,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "BlackSwam-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

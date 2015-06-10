@@ -1,8 +1,8 @@
 
 #import "CacheTableVC.h"
-#import "catModel.h"
+#import "CatModel.h"
+#import "Constants.h"
 
-#define kStoreMemory "catStored"
 
 
 @interface CacheTableVC ()
@@ -21,7 +21,7 @@
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    self.arrayImagesCached = [NSKeyedUnarchiver unarchiveObjectWithData:[userDefaults objectForKey:@kStoreMemory]];
+    self.arrayImagesCached = [NSKeyedUnarchiver unarchiveObjectWithData:[userDefaults objectForKey:kStoreMemory]];
     [self.tableView reloadData];
     
 }

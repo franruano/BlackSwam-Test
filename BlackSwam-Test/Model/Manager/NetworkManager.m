@@ -2,9 +2,9 @@
 
 #import "NetworkManager.h"
 #import "Reachability.h"
+#import "Constants.h"
 
 
-#define basePath "http://thecatapi.com"
 
 
 @implementation NetworkManager
@@ -14,7 +14,7 @@
     NetworkStatus networkStatus = [reachability currentReachabilityStatus];
     if (networkStatus != NotReachable) {
         // Initialize a request with an url cache policy and timeout.
-        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%s/%@",basePath,strUrl]];
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/%@",kBasePath,strUrl]];
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
                                                                cachePolicy:NSURLRequestReloadIgnoringLocalCacheData
                                                            timeoutInterval:20.0];
